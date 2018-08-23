@@ -1,0 +1,1180 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "id": "bs", 
+          "name": "imei_hardware_id"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "mac_address_local"
+            }
+          ], 
+          "id": "bs", 
+          "name": "mac_address"
+        }, 
+        {
+          "id": "bs", 
+          "name": "ip_address"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "url"
+            }, 
+            {
+              "id": "bs", 
+              "name": "email_address"
+            }
+          ], 
+          "id": "bs", 
+          "name": "domain_name"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "gcp_credentials"
+            }
+          ], 
+          "id": "bs", 
+          "name": "credentials"
+        }
+      ], 
+      "id": "bs", 
+      "name": "web"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "brazil_cpf_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "brazil"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "australia_tax_file_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "australia"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "spain_nif_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "spain"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "uk_taxpayer_reference"
+                }
+              ], 
+              "id": "bs", 
+              "name": "uk"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "mexico_curp_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "mexico"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "us_individual_taxpayer_identification_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "us_adoption_taxpayer_identification_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "us_preparer_taxpayer_identification_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "us_employer_identification_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }
+          ], 
+          "id": "bs", 
+          "name": "tax_number"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "uk_national_insurance_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "uk"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "us_social_security_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }
+          ], 
+          "id": "bs", 
+          "name": "social_security_number"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "canada_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "canada"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "korea_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "korea"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "mexico_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "mexico"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "germany_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "german"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "poland_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "poland"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "us_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "france_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "france"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "sweden_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "sweden"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "china_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "china"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "uk_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "uk"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "japan_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "japan"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "spain_passport"
+                }
+              ], 
+              "id": "bs", 
+              "name": "spain"
+            }
+          ], 
+          "id": "bs", 
+          "name": "passport_number"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "canada_drivers_license_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "canada"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "japan_drivers_license_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "japan"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "spain_drivers_license_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "spain"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "uk_drivers_license_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "uk"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "us_drivers_license_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }
+          ], 
+          "id": "bs", 
+          "name": "driving_license"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": "bs", 
+                      "name": "us_vehicle_identification_number"
+                    }
+                  ], 
+                  "id": "bs", 
+                  "name": "us"
+                }
+              ], 
+              "id": "bs", 
+              "name": "license_plate"
+            }
+          ], 
+          "id": "bs", 
+          "name": "vehicles"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "chile_cdi_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "chile"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "uruguay_cdi_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "uruguay"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "finland_national_id_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "finland"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "india_pan_individual"
+                }
+              ], 
+              "id": "bs", 
+              "name": "india"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "france_cni"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "france_nir"
+                }
+              ], 
+              "id": "bs", 
+              "name": "france"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "sweden_national_id_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "sweden"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "china_resident_id_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "china"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "colombia_cdc_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "colombia"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "paraguay_cic_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "paraguay"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "japan_individual_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "japan"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "argentina_dni_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "argentina"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "venezuela_cdi_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "venezuela"
+            }
+          ], 
+          "id": "bs", 
+          "name": "nid"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "canada_ohip"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "canada_bc_phn"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "canada_social_insurance_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "canada_quebec_hin"
+                }
+              ], 
+              "id": "bs", 
+              "name": "canada"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "netherlands_bsn_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "netherlands"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "peru_dni_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "peru"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "portugal_cdc_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "portugal"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "poland_pesel_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "poland_national_id_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "poland"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "us_healthcare_npi"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "us_dea_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "australia_medicare_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "australia"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "korea_rrn"
+                }
+              ], 
+              "id": "bs", 
+              "name": "korea"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "uk_national_health_service_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "uk"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "spain_nie_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "spain"
+            }
+          ], 
+          "id": "bs", 
+          "name": "health_insurance"
+        }
+      ], 
+      "id": "bs", 
+      "name": "documents"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "female_name"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "male_name"
+                }
+              ], 
+              "id": "bs", 
+              "name": "first_name"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "maiden_name"
+                }
+              ], 
+              "id": "bs", 
+              "name": "last_name"
+            }, 
+            {
+              "id": "bs", 
+              "name": "nickname"
+            }, 
+            {
+              "id": "bs", 
+              "name": "initials"
+            }
+          ], 
+          "id": "bs", 
+          "name": "person_name"
+        }, 
+        {
+          "id": "bs", 
+          "name": "title"
+        }, 
+        {
+          "id": "bs", 
+          "name": "gender"
+        }, 
+        {
+          "id": "bs", 
+          "name": "age"
+        }, 
+        {
+          "id": "bs", 
+          "name": "marital_status"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "religion"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "political_belief"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "nationality"
+                }
+              ], 
+              "id": "bs", 
+              "name": "norp"
+            }, 
+            {
+              "id": "bs", 
+              "name": "language"
+            }
+          ], 
+          "id": "bs", 
+          "name": "cultural"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "ethnic_group"
+            }
+          ], 
+          "id": "bs", 
+          "name": "race"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "eye_color"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "hair_length"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "hair_color"
+                }
+              ], 
+              "id": "bs", 
+              "name": "hair_style"
+            }, 
+            {
+              "id": "bs", 
+              "name": "weight"
+            }, 
+            {
+              "id": "bs", 
+              "name": "height"
+            }
+          ], 
+          "id": "bs", 
+          "name": "physical_traits"
+        }
+      ], 
+      "id": "bs", 
+      "name": "personal"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "fda_code"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }
+          ], 
+          "id": "bs", 
+          "name": "drugs"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "icd10_code"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "icd9_code"
+                }
+              ], 
+              "id": "bs", 
+              "name": "icd_code"
+            }
+          ], 
+          "id": "bs", 
+          "name": "diagnostic"
+        }
+      ], 
+      "id": "bs", 
+      "name": "healthcare"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "japan_bank_account"
+            }
+          ], 
+          "id": "bs", 
+          "name": "japan"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": "bs", 
+                      "name": "bank_name"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "account_number"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "swift_code"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "bban_code"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "iban_code"
+                    }, 
+                    {
+                      "children": [
+                        {
+                          "id": "bs", 
+                          "name": "credit_card_expiration"
+                        }, 
+                        {
+                          "id": "bs", 
+                          "name": "credit_card_type"
+                        }, 
+                        {
+                          "id": "bs", 
+                          "name": "credit_card_number"
+                        }, 
+                        {
+                          "id": "bs", 
+                          "name": "credit_card_ccv"
+                        }, 
+                        {
+                          "id": "bs", 
+                          "name": "credit_card_pass_code"
+                        }
+                      ], 
+                      "id": "bs", 
+                      "name": "credit_card"
+                    }
+                  ], 
+                  "id": "bs", 
+                  "name": "global"
+                }, 
+                {
+                  "children": [
+                    {
+                      "id": "bs", 
+                      "name": "sort_code"
+                    }
+                  ], 
+                  "id": "bs", 
+                  "name": "uk"
+                }
+              ], 
+              "id": "bs", 
+              "name": "banking_details"
+            }, 
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": "bs", 
+                      "name": "credit_score"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "credit_card_track_data"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "overdraft"
+                    }, 
+                    {
+                      "id": "bs", 
+                      "name": "balance"
+                    }
+                  ], 
+                  "id": "bs", 
+                  "name": "global"
+                }
+              ], 
+              "id": "bs", 
+              "name": "financial_status"
+            }
+          ], 
+          "id": "bs", 
+          "name": "global"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "american_bankers_cusip_id"
+            }, 
+            {
+              "id": "bs", 
+              "name": "us_bank_routing_micr"
+            }
+          ], 
+          "id": "bs", 
+          "name": "us"
+        }
+      ], 
+      "id": "bs", 
+      "name": "banking"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "fax_phone_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "landline_phone_number"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "mobile_phone_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "global"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "us_tollfree_phone_number"
+                }
+              ], 
+              "id": "bs", 
+              "name": "us"
+            }
+          ], 
+          "id": "bs", 
+          "name": "phone_number"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "twitter_handle"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "instagram_username"
+                }, 
+                {
+                  "id": "bs", 
+                  "name": "facebook_username"
+                }
+              ], 
+              "id": "bs", 
+              "name": "username"
+            }
+          ], 
+          "id": "bs", 
+          "name": "social_media"
+        }
+      ], 
+      "id": "bs", 
+      "name": "contact"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "latitude"
+            }, 
+            {
+              "id": "bs", 
+              "name": "longitude"
+            }
+          ], 
+          "id": "bs", 
+          "name": "coordinates"
+        }, 
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "city_of_birth"
+                }
+              ], 
+              "id": "bs", 
+              "name": "city"
+            }, 
+            {
+              "id": "bs", 
+              "name": "neighborhood"
+            }, 
+            {
+              "id": "bs", 
+              "name": "house_number"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "country_of_birth"
+                }
+              ], 
+              "id": "bs", 
+              "name": "country"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "region_of_birth"
+                }
+              ], 
+              "id": "bs", 
+              "name": "region"
+            }, 
+            {
+              "id": "bs", 
+              "name": "building_number"
+            }, 
+            {
+              "id": "bs", 
+              "name": "county"
+            }, 
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "id": "bs", 
+                      "name": "state_of_birth"
+                    }
+                  ], 
+                  "id": "bs", 
+                  "name": "global"
+                }, 
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "id": "bs", 
+                          "name": "us_state_of_birth"
+                        }
+                      ], 
+                      "id": "bs", 
+                      "name": "us_state"
+                    }
+                  ], 
+                  "id": "bs", 
+                  "name": "us"
+                }
+              ], 
+              "id": "bs", 
+              "name": "state"
+            }, 
+            {
+              "children": [
+                {
+                  "id": "bs", 
+                  "name": "zipcode"
+                }
+              ], 
+              "id": "bs", 
+              "name": "postcode"
+            }, 
+            {
+              "id": "bs", 
+              "name": "po_box"
+            }
+          ], 
+          "id": "bs", 
+          "name": "address"
+        }
+      ], 
+      "id": "bs", 
+      "name": "location"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "date_of_birth"
+            }, 
+            {
+              "id": "bs", 
+              "name": "date_of_graduation"
+            }
+          ], 
+          "id": "bs", 
+          "name": "date"
+        }
+      ], 
+      "id": "bs", 
+      "name": "time"
+    }, 
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "foundation"
+            }, 
+            {
+              "id": "bs", 
+              "name": "company"
+            }, 
+            {
+              "id": "bs", 
+              "name": "government_agency"
+            }, 
+            {
+              "id": "bs", 
+              "name": "association"
+            }
+          ], 
+          "id": "bs", 
+          "name": "organisation"
+        }, 
+        {
+          "children": [
+            {
+              "id": "bs", 
+              "name": "salary"
+            }, 
+            {
+              "id": "bs", 
+              "name": "job_position"
+            }, 
+            {
+              "id": "bs", 
+              "name": "job_domain"
+            }, 
+            {
+              "id": "bs", 
+              "name": "job_level"
+            }
+          ], 
+          "id": "bs", 
+          "name": "employment"
+        }
+      ], 
+      "id": "bs", 
+      "name": "professional"
+    }
+  ], 
+  "id": "bs", 
+  "name": "root"
+}

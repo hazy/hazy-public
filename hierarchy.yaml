@@ -1,0 +1,1387 @@
+personal:
+  types: ["string", "integer", "boolean"]
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    physical_traits:
+      types: ["string", "integer", "boolean"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        height:
+          types: ["string", "integer", "float"]
+          private: true
+          sensitive: false
+          description: ""
+        eye_color:
+          types: ["string", "integer", "float"]
+          private: true
+          sensitive: false
+          description: ""
+        hair_style:
+          types: ["string", "integer", "boolean", "float"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            hair_color:
+              types: ["string", "integer", "boolean"]
+              private: true
+              sensitive: false
+              description: ""
+            hair_length:
+              types: ["string", "integer", "boolean", "float"]
+              private: true
+              sensitive: false
+              description: ""
+        weight:
+          types: ["string", "integer", "boolean", "float"]
+          private: true
+          sensitive: false
+          description: ""
+    gender:
+      types: ["string", "integer", "boolean"]
+      private: true
+      sensitive: false
+      description: ""
+    age:
+      types: ["string", "integer", "float"]
+      private: true
+      sensitive: false
+      description: ""
+    race:
+      types: ["string", "boolean"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        ethnic_group:
+          types: ["string", "boolean"]
+          private: true
+          sensitive: false
+          description: ""
+    person_name:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        last_name:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            maiden_name:
+              types: ["string"]
+              private: true
+              sensitive: false
+              description: ""
+        first_name:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            female_name:
+              types: ["string"]
+              private: true
+              sensitive: false
+              description: ""
+            male_name:
+              types: ["string"]
+              private: true
+              sensitive: false
+              description: ""
+        initials:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        nickname:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+    title :
+      types: ['string']
+      private: true
+      sensitive: false
+      description: ""
+    marital_status :
+      types: ['string', 'boolean']
+      private: true
+      sensitive: false
+      description: ""
+    cultural:
+      types: ['string']
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        language :
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        norp :
+          types: []
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            religion :
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+            nationality :
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+              children:
+                citizenship_status :
+                  types: ['string']
+                  private: true
+                  sensitive: false
+                  description: ""
+            political_belief :
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+professional:
+    types: ['string']
+    private: true
+    sensitive: false
+    description: ""
+    children:
+      employment:
+        types: ['string']
+        private: true
+        sensitive: false
+        description: ""
+        children:
+          employment_status:
+            types: ['string', 'boolean']
+            private: true
+            sensitive: false
+            description: ""
+          job_position:
+            types: ['string']
+            private: true
+            sensitive: false
+            description: ""
+          job_level:
+            types: ['string', 'integer']
+            private: true
+            sensitive: false
+            description: ""
+          job_class:
+            types: ['string', 'integer']
+            private: true
+            sensitive: false
+            description: ""
+          salary:
+            types: ['string', 'money', 'float', 'integer']
+            private: true
+            sensitive: false
+            description: ""
+          job_domain:
+            types: ['string']
+            private: true
+            sensitive: false
+            description: ""
+      organisation:
+        types: ['string']
+        private: false
+        sensitive: false
+        description: ""
+        children:
+          organisation_type:
+            types: ['string']
+            private: false
+            sensitive: false
+            description: ""
+            children:
+              company:
+                types: ['string']
+                private: false
+                sensitive: false
+                description: ""
+              association:
+                types: ['string']
+                private: false
+                sensitive: false
+                description: ""
+              foundation:
+                types: ['string']
+                private: false
+                sensitive: false
+                description: ""
+              government_agency:
+                types: ['string']
+                private: false
+                sensitive: false
+                description: ""
+education:
+  types: []
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    education_field:
+      types: ['string']
+      private: true
+      sensitive: false
+      description: ""
+    education_level:
+      types: ['integer', 'string', 'boolean']
+      private: true
+      sensitive: false
+      description: ""
+    education_establishment_name:
+      types: ['string']
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        university_name:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        college_name:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        high_school_name:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        secondary_school_name:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+contact:
+  types: []
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    social_media:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        username:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            twitter_handle:
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+            facebook_username:
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+            instagram_username:
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+    phone_number:
+      types: ["string", "integer", "float"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        global:
+          types: ["string", "integer", "float"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            mobile_phone_number:
+              types: ["string", "integer", "float"]
+              private: true
+              sensitive: false
+              description: ""
+            landline_phone_number:
+              types: ["string", "integer", "float"]
+              private: true
+              sensitive: false
+              description: ""
+            fax_phone_number:
+              types: ["string", "integer", "float"]
+              private: true
+              sensitive: false
+              description: ""
+        us:
+          types: ["string", "integer", "float"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us_tollfree_phone_number:
+              types: ["string", "integer", "float"]
+              private: true
+              sensitive: false
+              description: ""
+web:
+  types: ["string", "integer", "float"]
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    domain_name:
+      types: ["string", "integer", "float"]
+      private: false
+      sensitive: false
+      description: ""
+      children:
+        url:
+          types: ["string", "integer", "float"]
+          private: false
+          sensitive: false
+          description: ""
+        email_address:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+
+    ip_address:
+      types: ["string", "integer", "float", "ip_address"]
+      private: true
+      sensitive: false
+      description: ""
+    imei_hardware_id:
+      types: ["string", "integer", "float"]
+      private: true
+      sensitive: false
+      description: ""
+    mac_address:
+      types: ["string", "integer", "float", "ip_address"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        mac_address_local:
+          types: ["string", "integer", "float", "ip_address"]
+          private: true
+          sensitive: false
+          description: ""
+    credentials:
+      types: ["string", "integer", "float"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        gcp_credentials:
+          types: ["string", "integer", "float"]
+                     "gcp api", "gcp credentials"]
+          private: true
+          sensitive: false
+          description: ""
+banking:
+  types: []
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    global:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        financial_status:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            global:
+              types: ["string"]
+              private: true
+              sensitive: false
+              description: ""
+              children:
+                credit_card_track_data :
+                  types: ['string', "boolean", "float", "integer", "money"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                credit_score :
+                  types: ['string', "boolean", "float", "integer", "money"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                balance :
+                  types: ['string', "boolean", "float", "integer", "money"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                overdraft :
+                  types: ['string', "boolean", "float", "integer", "money"]
+                  private: true
+                  sensitive: false
+                  description: ""
+        banking_details:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uk:
+              types: ['string']
+              private: false
+              sensitive: false
+              description: ""
+              children:
+                sort_code :
+                  types: ['string', "integer"]
+                  private: true
+                  sensitive: false
+                  description: ""
+            global:
+              types: ['string']
+              private: false
+              sensitive: false
+              description: ""
+              children:
+                bank_name :
+                  types: ['string']
+                  private: true
+                  sensitive: false
+                  description: ""
+                account_number :
+                  types: ['string', "integer"]
+                  private: false
+                  sensitive: false
+                  description: ""
+                credit_card:
+                  types: ["string", "integer"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                  children:
+                    credit_card_number:
+                      types: ["string", "integer"]
+                      private: true
+                      sensitive: false
+                      description: ""
+                    credit_card_ccv :
+                      types: ['string']
+                      private: true
+                      sensitive: false
+                      description: ""
+                    credit_card_expiration :
+                      types: ['string', 'timestamp', "date", 'time', "boolean"]
+                      private: true
+                      sensitive: false
+                      description: ""
+                    credit_card_type :
+                      types: ['string', "boolean"]
+                      private: true
+                      sensitive: false
+                      description: ""
+                    credit_card_pass_code :
+                      types: ['string', "integer"]
+                      private: false
+                      sensitive: false
+                      description: ""
+                iban_code:
+                  types: ["string", "integer"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                bban_code:
+                  types: ["string", "integer"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                swift_code:
+                  types: ["string", "integer", "float"]
+                  private: true
+                  sensitive: false
+                  description: ""
+    japan:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        japan_bank_account:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+    us:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        american_bankers_cusip_id:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+        us_bank_routing_micr:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+
+healthcare:
+  types: ["string"]
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    diagnostic:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        icd_code:
+          types: ["string", "integer", "float"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            icd9_code:
+              types: ["string", "integer", "float"]
+              private: true
+              sensitive: false
+              description: ""
+            icd10_code:
+              types: ["string", "integer", "float"]
+              private: true
+              sensitive: false
+              description: ""
+    drugs:
+      types: ["string"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        us:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            fda_code:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+location:
+  types: ["string", "float", "integer"]
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    address:
+      types: ['string']
+      private: false
+      sensitive: false
+      description: ""
+      children:
+        country:
+          types: ['string']
+          private: false
+          sensitive: false
+          description: ""
+          children:
+            country_of_birth :
+              types: ['string']
+                         'native land', 'country of birth', 'birth country',
+                         'born in','native country']
+              private: true
+              sensitive: false
+              description: ""
+        city:
+          types: ['string']
+          private: false
+          sensitive: false
+          description: ""
+          children:
+            city_of_birth :
+              types: ['string']
+              private: true
+              sensitive: false
+              description: ""
+        state:
+          types: ['string']
+          private: false
+          sensitive: false
+          description: ""
+          children:
+            global:
+              types: ['string']
+              private: false
+              sensitive: false
+              description: ""
+              children:
+                state_of_birth :
+                  types: ['string']
+                  private: true
+                  sensitive: false
+                  description: ""
+            us:
+              types: ['string']
+              private: false
+              sensitive: false
+              description: ""
+              children:
+                us_state:
+                  types: ["string", "float", "integer"]
+                  private: true
+                  sensitive: false
+                  description: ""
+                  children:
+                    us_state_of_birth:
+                      types: ["string", "float", "integer"]
+                      private: true
+                      sensitive: false
+                      description: ""
+        region:
+          types: ['string', 'integer']
+          private: false
+          sensitive: false
+          description: ""
+          children:
+            region_of_birth:
+              types: ["string", "float", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        postcode:
+          types: ['string', 'integer']
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            zipcode:
+              types: ['string', 'integer']
+              private: true
+              sensitive: false
+              description: ""
+        county:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        po_box:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        neighborhood:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        house_number:
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        building_number:
+          types: ['string']
+          private: false
+          sensitive: false
+          description: ""
+    coordinates:
+      types: ['string']
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        latitude :
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+        longitude :
+          types: ['string']
+          private: true
+          sensitive: false
+          description: ""
+documents:
+  types: ["string"]
+  private: true
+  sensitive: false
+  description: ""
+  children:
+    social_security_number:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        uk:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uk_national_insurance_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        us:
+          types: ["string"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us_social_security_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+    nid:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        sweden:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            sweden_national_id_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        finland:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            finland_national_id_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        argentina:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            argentina_dni_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        chile:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            chile_cdi_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        china:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            china_resident_id_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        colombia:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            colombia_cdc_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        france:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            france_cni:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            france_nir:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        india:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            india_pan_individual:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        paraguay:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            paraguay_cic_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        japan:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            japan_individual_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        uruguay:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uruguay_cdi_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        venezuela:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            venezuela_cdi_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+    health_insurance:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        australia:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            australia_medicare_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        uk:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uk_national_health_service_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        canada:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            canada_bc_phn:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            canada_ohip:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            canada_quebec_hin:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            canada_social_insurance_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        korea:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            korea_rrn:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        netherlands:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            netherlands_bsn_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        peru:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            peru_dni_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        poland:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            poland_pesel_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            poland_national_id_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        portugal:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            portugal_cdc_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        spain:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            spain_nie_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        us:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us_dea_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            us_healthcare_npi:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+    tax_number:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        mexico:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            mexico_curp_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        australia:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            australia_tax_file_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        brazil:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            brazil_cpf_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        uk:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uk_taxpayer_reference:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        spain:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            spain_nif_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        us:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us_adoption_taxpayer_identification_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            us_employer_identification_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            us_individual_taxpayer_identification_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+            us_preparer_taxpayer_identification_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+    passport_number:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        sweden:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            sweden_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        canada:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            canada_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        china:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            china_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        france:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            france_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        german:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            germany_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        japan:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            japan_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        korea:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            korea_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        mexico:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            mexico_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        poland:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            poland_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        spain:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            spain_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        uk:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uk_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+          netherlands:
+            types: ["string", "integer"]
+            private: true
+            sensitive: false
+            description: ""
+            children:
+              netherlands_passport:
+                types: ["string", "integer"]
+                private: true
+                sensitive: false
+                description: ""
+        us:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us_passport:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+    driving_license:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        spain:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            spain_drivers_license_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        japan:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            japan_drivers_license_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        canada:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            canada_drivers_license_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        uk:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            uk_drivers_license_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+        us:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us_drivers_license_number:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+    vehicles:
+      types: ["string", "integer"]
+      private: true
+      sensitive: false
+      description: ""
+      children:
+        license_plate:
+          types: ["string", "integer"]
+          private: true
+          sensitive: false
+          description: ""
+          children:
+            us:
+              types: ["string", "integer"]
+              private: true
+              sensitive: false
+              description: ""
+              children:
+                us_vehicle_identification_number:
+                  types: ["string", "integer"]
+                  private: true
+                  sensitive: false
+                  description: ""
+time:
+  types: ["string", "float", "integer", "timestamp", "date", "time"]
+  private: false
+  sensitive: false
+  description: ""
+  children:
+    date:
+      types: ["string", "float", "integer", "timestamp", "date", "time"]
+      private: false
+      sensitive: false
+      description: ""
+      children:
+        date_of_birth:
+          types: ["string", "float", "integer", "timestamp", "date", "time"]
+          private: true
+          sensitive: false
+          description: ""
+        date_of_graduation:
+          types: ["string", "float", "integer", "timestamp", "date", "time"]
+          private: true
+          sensitive: false
+          description: ""
