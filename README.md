@@ -25,4 +25,4 @@ In order to display this hierarchy directly in your browser, type the following 
 ```
   bash show_hierarchy.sh
 ```
-once done please time `ctr + c` in your terminal in order to stop the process.
+once done please type `ctr + c` in your terminal in order to stop the process.
