@@ -11,3 +11,18 @@ Currently, this repository contains the following resources:
   * YAML file containing the hierarchy.
 
 ## Entity Hierarchy
+
+![alt text](hierarchy/images/hierarchy.png)
+
+In order to understand the similarity and proximity between various entities our system detect and process, our team built a hierarchical representation of all the entities we are managing.
+
+This has the advantage of allowing us to evaluate the relationship between any two entities or types of information in a meaningful way.
+
+Bear in mind that such a hierarchy is still under development and will likely be updated in the up-coming months. If you have any update or feed-back on our current work that you would like to see feel free to let us know.
+
+In order to display this hierarchy directly in your browser, type the following in terminal:
+
+```
+  bash show_hierarchy.sh
+```
+once done please time `ctr + c` in your terminal in order to stop the process.
